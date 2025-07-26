@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Continuous Slider</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .slider-track {
+      animation: scroll-left 20s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="overflow-hidden w-full max-w-6xl bg-white border border-gray-300">
+    <div class="flex slider-track w-[200%]">
+      <!-- First set of images -->
+      <div class="flex w-1/2">
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+      </div>
+      <!-- Duplicate set for seamless scroll -->
+      <div class="flex w-1/2">
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+        <img src="https://via.placeholder.com/240x190" class="w-[240px] h-[190px]" />
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
+
+
+Join PixelProfile and easily create and shar professio digitat business card.
+
+
+
+data-aos-duration="2000"
+
+data-aos="zoom-in"
